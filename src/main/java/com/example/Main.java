@@ -48,12 +48,12 @@ public class Main {
     SpringApplication.run(Main.class, args);
   }
 
-  @RequestMapping("/")
+  @RequestMapping("/index")
   String index() {
     return "index";
   }
 
-  @RequestMapping("/login")
+  @RequestMapping("/")
   String login() {
     return "login";
   }
